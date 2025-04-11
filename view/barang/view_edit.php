@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Tambah Barang Baru</title>
 </head>
 <body>
@@ -36,7 +37,8 @@
     <label for="exampleInputPassword1" class="form-label">Stok</label>
     <input type="text" class="form-control" name="stok" value="<?php echo $result['stok'] ?>" id="exampleInputPassword1">
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary btn-sm"><i class="fa-solid fa-floppy-disk"></i> Submit</button>
+  <a href="index.php" class="btn btn-primary btn-sm"><i class="fa-solid fa-chevron-left"></i> Kembali</a>
 </form>
     </div>
 </body>
